@@ -1,0 +1,7 @@
+{
+  "name": "app-gimnasio-alberto",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

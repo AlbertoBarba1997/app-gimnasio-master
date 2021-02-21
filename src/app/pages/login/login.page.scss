@@ -1,0 +1,38 @@
+ion-content {
+    .formulario {
+        h1 {
+            font-weight: bold;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            font-size: 50px;
+        }
+        ion-item {
+            border: 2px solid black;
+            border-radius: 10px;
+        }
+        .dni {
+            margin-top: 25px;
+        }
+        .password {
+            margin-top: 10px;
+        }
+        ion-button{
+            margin-top: 30px;
+            --border-radius: 50px;
+            text-transform: none;
+            font-size: 20px;
+        }
+    }
+    .bolso {
+        position: absolute;
+        bottom: 40px;
+        right: 40px;
+        height: 75px;
+        width: 75px;
+        -webkit-transform: rotate(-45deg);
+        -moz-transform: rotate(-45deg);
+        -o-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+    }
+}
